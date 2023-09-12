@@ -73,28 +73,6 @@ fun GenericDropDown(
             }
         }
     }
-
-    /*Box (modifier = modifier
-        .fillMaxWidth()
-        .wrapContentSize(Alignment.TopEnd)){
-        DropdownMenu(
-            modifier = Modifier.clickable { expanded = !expanded },
-            expanded = expanded,
-            onDismissRequest = { expanded = false },
-        ) {
-            optionList.forEach {
-                DropdownMenuItem(
-                    text = {
-                        Text(text = it)
-                    },
-                    onClick = {
-                        expanded = !expanded
-                    }
-                )
-            }
-        }
-    }*/
-
 }
 
 @Preview
